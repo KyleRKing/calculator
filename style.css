@@ -8,7 +8,7 @@ body{
    width:25%; 
    height:25%;
    margin: 20px auto;
-   position: relative;
+   float: left;
    font-size: 100px;   
 }
 
@@ -16,10 +16,19 @@ body{
    width:25%;
    height:25%;
    margin: 20px auto;
-   position: relative;
-
-
+   float: left;
 }
+
+#container3 {
+   width:25%;
+   height:25%;
+   margin: 20px auto;
+   float: right;
+}
+
+
+
+
 .square{ 
    position: relative;
    border:1px solid #0080D6;         
@@ -53,8 +62,14 @@ h2 {
    font-size: 150px;  
    margin: 0 auto;
    color: red;
+}
 
+h3 {
 
+   text-align: center;
+   font-size: 100px;
+   margin: 0 auto;
+   color: white;
 }
 
 button {
