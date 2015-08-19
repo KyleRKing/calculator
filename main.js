@@ -1,8 +1,5 @@
-
-chooseValue[1].addEventListener("click",function(){
-	parseInt("1");
-	
-}
+var numbers = document.querySelectorAll('.input');
+	console.log(numbers);
 
 
 

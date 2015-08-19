@@ -5,15 +5,18 @@ body{
 #container {
 	width: 430px;
 	height: 500px;
-	background: yellow;
+	background: white;
 	margin: auto;
+	padding: 10px;
+	
 }
 
 #calculator {
 	width: 400px;
-	height: 450px;
+	height: 400px;
 	background: green;
 	margin: auto;
+	border: 2px solid black;
 }
 
 #display {
@@ -40,6 +43,6 @@ body{
 	line-height: 50px;
 	font-weight: bold;
 	font-family: arial;
-	border-radius: 5px;
+	border-radius: 30px;
 	border: 1px solid white;
 }
